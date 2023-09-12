@@ -1,0 +1,337 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+}
+
+.wrapper{
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  text-align: center;
+}
+h4{
+  margin-top: 1rem;
+}
+.button{
+  margin-left: 20rem;
+ text-decoration: underline;
+ display: flex;
+ gap: 2rem;
+ margin-top: 1rem;
+}
+
+
+.btns{
+  margin-left: 20rem;
+  border: 1px solid black;
+  padding: .8rem;
+  border-radius: .5rem;
+  text-align: center;
+}
+.btn{
+  margin-left: 1rem;
+  border: 1px solid black;
+  padding: .8rem;
+  background-color: black;
+  color: white;
+  border-radius: .5rem;
+  text-align: center;
+
+}
+.welcome{
+  text-align: center;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+}
+h1{
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.are{
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+.dis{
+  display: flex;
+  text-align: center;
+  margin-top: 3rem;
+}
+.bt{
+  margin-left: 1rem;
+  border: 1px solid black;
+  padding: .5rem;
+  border-radius: .5rem;
+  text-align: center;
+}
+.bn{
+  margin-left: 1rem;
+  border: 1px solid black;
+  padding: .5rem;
+  background-color: black;
+  color: white;
+  border-radius: .5rem;
+  text-align: center;
+}
+.img{
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 9rem;
+  gap: 4rem;
+}
+
+.img img{
+  width: 30rem;
+  /* height: 15rem; */
+}
+.header{
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 5rem;
+}
+
+.ant{
+  display: grid;
+  margin-left: 1.8rem;
+}
+
+.ant span{
+  margin-top: 1rem;
+}
+.but{
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+.but{
+  gap: 1rem;
+  margin: 1rem;
+}
+.arroe{
+margin-left: 1rem;
+}
+.chose{
+  display: flex;
+  margin-left: 4rem;
+}
+h2{
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+.flex{
+  display: grid;
+}
+.flex p{
+  margin-top: 1rem;
+  gap: 2rem;
+}
+.images{
+  display: flex;
+  width: 12rem;
+  margin-left: 4rem;
+  gap: 1rem;
+  margin-top: 2rem
+}
+
+.chos{
+  display: flex;
+  margin-top: 5rem;
+  margin-left: 4rem;
+}
+.fle{
+  margin-left: 2rem;
+  margin-top: 4rem;
+}
+.fle p {
+  margin-top: 2rem;
+}
+
+.imags{
+  margin-top: 4rem;
+}
+.imags img {
+  margin-top: 2.5rem;
+}
+
+.pp{
+margin-top: 1rem;
+}
+.imagess{
+  display: flex;
+  margin-top: 4rem;
+  /* margin-left: 6rem; */
+}
+
+.imgs{
+  margin-left: 3rem;
+}
+.hand{
+  width: 20rem;
+  height: 41rem;
+}
+.ims{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 3rem;
+  gap: 1.5rem;
+
+} 
+.ims img{
+  width: 20rem;
+}
+h3{
+  text-align: center;
+}
+.meet{
+  margin-top: 2rem;
+}
+.meet p{
+  margin-left: 5rem;
+}
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+
+
+.avatar p{
+ margin-top: 2rem;
+}
+.avatar img{
+  margin-top: 2rem;
+  width: 10rem;
+}
+.phone{
+  display: flex;
+  margin-top: 4rem;
+}
+.phone img{
+  width: 33rem;
+}
+.form  h3{
+  font-size: 3rem;
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+.form p {
+  text-align: center;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+.input{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-left: 2rem;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.input input{
+  width: 15rem;
+  height: 2rem;
+  background-color: rgb(245, 245, 245);
+  border: none;
+  outline: none;
+  border-radius: 7px;
+}
+
+input{
+  margin-top: 1rem;
+  padding: .8rem;
+}
+.form-input{
+  width:100%;
+  height: 50px;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.one{
+  margin-top: 1rem;
+ }
+.email{
+  margin-top: 1rem;
+}
+.issue{
+  width: 20rem;
+  margin-top: 5rem;
+}
+.issue input{
+  width: 37rem;
+ height: 5rem;
+ margin-top: 1rem;
+}
+.bnt img{
+  width: 20px;
+}
+button{
+  background-color: rgb(31, 31, 31);
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  height: 3rem;
+  width: 85%;
+  border-radius: 10px;
+  gap: 1rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+.browser{
+  margin-left: 16rem;
+  margin-top: 1rem;
+}
+.browser img{
+  width: 20px;
+  margin-left: 2rem;
+}
+.footer{
+  display: grid;
+  margin-left: 12rem;
+}
+
+.rid{
+  display: flex;
+  margin-top: 5rem;
+}
+.text{
+  display: grid;
+  margin-left: 2rem;
+}
+.text strong{
+  font-size: 2.5rem;
+}
+.text p{
+   margin-top: 1rem;
+}
+
+.u{
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.inputs{
+  display: flex;
+}
+.inputs input{
+  width: 10rem;
+  height: 2rem;
+  background-color: rgb(245, 245, 245);
+  border: 0;
+  outline: 0;
+  border-radius: .2rem;
+  margin-top: 1.2rem;
+}
+.inputs button{
+  width: 4rem;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
